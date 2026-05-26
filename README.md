@@ -3,14 +3,16 @@
 > You will now have to send C0CInput packets along with ticks to move, enjoy!
 
 # MinibloxTranslationLayer
-A middle man to translate Miniblox packets into Minecraft 1.8.9 packets.
+A middleman proxy that translates Miniblox packets into Minecraft 1.8.9 packets, letting you connect to Miniblox through any supported 1.8.9 client.
 
-## Use Steps
-1. Install the latest NodeJS at (https://nodejs.org/)
-2. Download & extract the repository to a random folder
-3. Open a terminal inside said folder
-4. Run npm install & node index.js
-5. Connect to localhost on a supported Minecraft 1.8.9 client.
+## Setup
+1. Install [Node.js](https://nodejs.org/) (latest LTS is **highly** recommended)
+2. Download and extract this repository
+3. Open a terminal in the extracted folder
+4. Run `npm install`, then `node index.js`
+5. In your Minecraft 1.8.9 client, connect to `localhost`
 
 ## Commands
-/play (gamemode type / eggwars / skywars / kitpvp) (aliases include /queue)
+| Command | Aliases | Description |
+|---|---|---|
+| `/play <gamemode>` | `/queue` | Queue for a gamemode (`eggwars`, `skywars`, `kitpvp`) |
