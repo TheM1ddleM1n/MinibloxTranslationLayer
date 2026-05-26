@@ -9,9 +9,9 @@ body:
     options:
       - label: I am not a pest
         required: true
-      - label: I am using the latest version of Miniblox Translation Layer (`git pull`)
+      - label: I am using the latest version of Miniblox Translation Layer (using `git pull`)
         required: true
-      - label: My Minecraft client is running on 1.8.9 (you can use ViaVersion)
+      - label: My Minecraft client is running on version 1.8.9 (you can use ViaVersion)
         required: true
       - label: I have searched the issues of this repository and believe that this is not a duplicate
         required: true
