@@ -5,7 +5,7 @@
 # MinibloxTranslationLayer
 A middleman proxy that translates Miniblox packets into Minecraft 1.8.9 packets, letting you connect to Miniblox through any supported 1.8.9 client. 
 
-Developed and maintained by [7GrandDad](https://youtube.com/c/7GrandDadVape).
+**Credit to [7GrandDad](https://youtube.com/c/7GrandDadVape) for the development and maintainance of MTL.**
 
 ## Requirements
 - [Node.js](https://nodejs.org/) (latest LTS recommended)
