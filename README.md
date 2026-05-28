@@ -8,7 +8,7 @@ A middleman proxy that translates Miniblox packets into Minecraft 1.8.9 packets,
 **Credit to [7GrandDad](https://youtube.com/c/7GrandDadVape) for the development and maintainance of MTL.**
 
 ## Requirements
-- [Node.js](https://nodejs.org/) (latest LTS recommended)
+- [Node.js](https://nodejs.org/) (latest LTS is **highly** recommended)
 - A cracked Minecraft 1.8.9 client (ViaVersion is supported)
 
 ## Setup
@@ -18,7 +18,7 @@ A middleman proxy that translates Miniblox packets into Minecraft 1.8.9 packets,
 4. Connect to `localhost` in your Minecraft 1.8.9 client
 
 ## Authentication
-To play on a Miniblox account, run `/login <token>` in chat. Your token will be saved to `login.token`. Leave this blank to play as a guest ("non account.")
+To play on a Miniblox account, run `/login <token>` in chat. Your token will be saved to `login.token`. Leave this blank to play as a ("non account.")
 
 ## Commands
 | Command | Aliases | Description |
