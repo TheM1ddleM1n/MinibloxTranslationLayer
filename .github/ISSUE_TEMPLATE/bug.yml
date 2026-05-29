@@ -20,10 +20,9 @@ body:
     label: What OS(es) are you using?
     multiple: true
     options:
-      - Windows
-      - macOS
-      - Ubuntu
-      - Other Linux
+      - Windows 10/11
+      - macOS 10.14 or later
+      - Linux (Ubuntu)
       - Other (specify below)
   validations:
     required: true
