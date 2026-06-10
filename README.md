@@ -10,6 +10,7 @@ A middleman proxy that translates Miniblox packets into Minecraft 1.8.9 packets,
 ## Requirements
 - [Node.js](https://nodejs.org/) (latest LTS is **highly** recommended)
 - A **cracked Minecraft 1.8.9 client** (**ViaVersion** is supported)
+- Latest version of Miniblox (sin index.js
 
 ## Setup
 1. Download and extract this repository
