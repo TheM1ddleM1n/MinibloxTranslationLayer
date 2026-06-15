@@ -1,9 +1,9 @@
-> [!WARNING]
-> ~The translation layer is no longer usable as of 02/24/2025, vector implemented a semi simulation anticheat that expects proper physics.~
-> You will now have to send C0CInput packets along with ticks to move. (using a movement disabler or smth)
-
 # MinibloxTranslationLayer
 A middleman proxy that translates Miniblox packets into Minecraft 1.8.9 packets, letting you connect to Miniblox through any supported 1.8.9 client. 
+
+> [!WARNING]
+> ~The translation layer is no longer usable as of 02/24/2025, vector implemented a semi simulation anticheat that expects proper physics.~
+> You will now have to send C0CInput packets along with ticks to move. (using a movement disabler is your best choice here)
 
 **Credit to [7GrandDad](https://youtube.com/c/7GrandDadVape) for the development and maintainance of MTL.**
 
@@ -19,7 +19,7 @@ A middleman proxy that translates Miniblox packets into Minecraft 1.8.9 packets,
 4. Connect to `localhost` in your Minecraft 1.8.9 client
 
 ## Authentication
-To play on a Miniblox account, run `/login <token>` in chat. Your token will be saved to `login.token`. Leave this blank to play as a ("non account.")
+To play on a Miniblox account, run `/login <token>` in chat. Your token will be saved to `login.token`. Leave this blank to play as a ("guest")
 
 ## Commands
 | Command | Aliases | Description |
